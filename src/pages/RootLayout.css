@@ -1,26 +1,20 @@
-/* Root component এর wrapper কে flex করো */
 #root-container {
   display: flex;
-  height: 100vh; /* পুরো ভিউপোর্ট হাইট */
+  height: 100vh;
 }
 
-/* sidebar বামে থাকবে */
 #sidebar {
-  width: 200px; /* sidebar এর প্রস্থ */
+  width: 200px;
   background-color: #f4f4f4;
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
-
-/* main content ডানে থাকবে */
 #detail {
-  flex: 1; /* বাকি পুরো অংশ নেবে */
+  flex: 1;
   padding: 20px;
   background-color: #fff;
   overflow-y: auto;
 }
-
-/* ন্যাভ লিস্ট সুন্দর করতে */
 #sidebar ul {
   list-style: none;
   padding: 0;

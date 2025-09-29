@@ -1,13 +1,8 @@
-/*
-  The CSS below will style the list of posts to make it clean and readable.
-  You can place this in your global CSS file.
-*/
-
 .Post-container {
-  max-width: 800px; /* Limits the container width for better readability */
-  margin: 20px auto; /* Centers the container and adds vertical spacing */
+  max-width: 800px;
+  margin: 20px auto;
   padding: 20px;
-  background-color: #f9f9f9; /* Light background for the whole section */
+  background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -15,33 +10,31 @@
 .Post-container h2 {
   text-align: center;
   color: #333;
-  border-bottom: 2px solid #007bff; /* A nice blue underline for the heading */
+  border-bottom: 2px solid #007bff;
   padding-bottom: 10px;
   margin-bottom: 25px;
 }
 
 .Post-container ul {
-  list-style-type: none; /* Removes the default bullet points */
+  list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 .Post-container li {
-  background-color: #fff; /* White background for each list item */
+  background-color: #fff;
   padding: 15px;
-  margin-bottom: 10px; /* Spacing between list items */
+  margin-bottom: 10px;
   border-radius: 6px;
-  border-left: 5px solid #007bff; /* A prominent blue stripe on the left */
+  border-left: 5px solid #007bff;
   font-size: 1.1em;
   color: #444;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  line-height: 1.4; /* Improves text readability */
+  line-height: 1.4;
 }
-
-/* Hover effect to make the list interactive */
 .Post-container li:hover {
-  transform: translateX(5px); /* Moves the item slightly to the right */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Adds a stronger shadow */
-  background-color: #eaf4ff; /* Slightly changes background on hover */
+  transform: translateX(5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  background-color: #eaf4ff;
   cursor: pointer;
 }

@@ -5,7 +5,6 @@ export default function Root() {
   return (
     <div id="root-container">
       {" "}
-      {/* <-- এখানে wrapper */}
       <div id="sidebar">
         <h1>React Router Contacts</h1>
         <nav>

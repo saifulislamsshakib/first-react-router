@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./Posts.css";
 
 const Posts = () => {
@@ -15,7 +16,9 @@ const Posts = () => {
       <h2>All-posts</h2>
       <ul>
         {posts.map((post) => (
-          <li key={post.id}>{post.title}</li>
+          <li key={post.id}>
+            <Link to={`/posts/${post.id}`}>{post.title}</Link>
+          </li>
         ))}
       </ul>
     </div>
