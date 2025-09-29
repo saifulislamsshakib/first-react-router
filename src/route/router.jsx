@@ -9,6 +9,8 @@ import Contact from "../pages/Contact.jsx";
 import App from "../pages/App.jsx";
 import ErrorPage from "../pages/ErrorPage.jsx";
 import PostDetailes from "../pages/PostDetailes.jsx";
+import Users from "../pages/Users.jsx";
+import UserDetailes from "../pages/UserDetais.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -19,15 +21,18 @@ export const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "/about", element: <About /> },
       { path: "/contact", element: <Contact /> },
+
+      { path: "/addlist", element: <App /> },
       {
         path: "/all-posts",
         element: <Posts />,
       },
-      { path: "/addlist", element: <App /> },
       {
         path: "/posts/:id",
         element: <PostDetailes />,
       },
+      { path: "/all-users", element: <Users /> },
+      { path: "/user-details/:id", element: <UserDetailes /> },
     ],
   },
 ]);

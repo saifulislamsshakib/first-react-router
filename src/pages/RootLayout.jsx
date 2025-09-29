@@ -24,6 +24,12 @@ export default function Root() {
             <li>
               <Link to="/addlist">Add to the list</Link>
             </li>
+            <li>
+              <Link to="/all-users">All Users</Link>
+            </li>
+            {/* <li>
+              <Link to="/user-details">All Users</Link>
+            </li> */}
           </ul>
         </nav>
       </div>
